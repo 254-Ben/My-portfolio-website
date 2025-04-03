@@ -1,0 +1,85 @@
+/* Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.6;
+    background-color: #b5a789;
+    margin: 0px;
+    font-size: medium;
+}
+
+header.top {
+    background-color: #b5a789;
+    padding: 10px;
+    color: white;
+    float: right;
+}
+
+img#headerLogo {
+    border-radius: 0%;
+    max-width: 8.4cm;
+}
+
+nav ul {
+    background-color: white;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #954b4b;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    color: #954b4b;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #954b4b;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section#about {
+    background-color: #e2e2e2;
+}
+
+section#interests ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    font-size: 90%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0px 10px 0px 10px;
+}
