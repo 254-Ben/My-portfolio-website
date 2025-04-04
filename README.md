@@ -32,14 +32,17 @@ Copy
 |    |__form.html
 │       
 ├── /index.html
+|__ /mobile.css
 ├── /README.md
 ├── /styles.css
-Explanation of the Key Files:
+
+
+**Explanation of the Key Files:**
     • index.html: The homepage of the portfolio, including basic introduction, navigation, and links to other sections.
     • about.html: A page that introduces me in more detail, with my background and skills.
     • contact.html: A page with a contact form that allows users to send a message or get my contacts details.
 
-Features
+**Features**
 1. Responsive Design
     • The website is fully responsive, adapting to various screen sizes (from mobile to desktop).
     • CSS styles are used to create flexible layouts.
@@ -62,5 +65,8 @@ To run this project locally, follow these steps:
        bash
        Copy
        open index.html
+ **OR**
+       Open the link Below on any device and browser to view my Portfolio
+       https://254-ben.github.io/My-portfolio-website/
 
 
