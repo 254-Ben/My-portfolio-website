@@ -1,0 +1,76 @@
+/* Default styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for screens with a maximum width of 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* Adjust layout for smaller screens */
+    header {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Adjust navigation to be more mobile-friendly */
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Styles for screens with a maximum width of 480px (small mobile devices) */
+@media (max-width: 480px) {
+    /* Example of adjusting font size and elements */
+    h1 {
+        font-size: 24px;
+    }
+
+    .portfolio-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .portfolio-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+/* Flex container for portfolio items */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    flex: 1 1 300px; /* Each item takes up a minimum of 300px, but can grow or shrink */
+    margin: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
